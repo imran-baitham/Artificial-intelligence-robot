@@ -1,0 +1,43 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.section_one {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.div_style {
+    display: block;
+}
+
+.div_guest {
+    width: 50%;
+    height: 400px;
+    background-color: rgba(255, 0, 0, 0.555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_guest h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+#heading {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 2px;
+    font-weight: 800;
+}
